@@ -89,3 +89,110 @@
     display: block;
     margin-top: 40px;
 }
+
+/* Box Style  */
+.box_container {
+    width: 90%;
+    height: 100px;
+    margin: 40px auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box_container {
+    font-size: 20px;
+}
+
+.box_container select {
+    padding: 15px 35px;
+    background-color: rgb(226, 230, 235);
+    border: none;
+}
+
+.box_container input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+}
+
+.check_box {
+    display: flex;
+    gap: 10px;
+}
+
+.box_container input[type='reset'] {
+    border: none;
+    background-color: transparent;
+    color: blue;
+    font-size: large;
+    padding-right: 150px;
+    border-right: 1px solid rgb(243, 252, 250);
+    cursor: pointer;
+}
+
+.phone_container {
+    display: flex;
+    justify-content: space-around;
+    width: 93%;
+    margin: 40px auto;
+}
+
+.phone_box {
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    background-color: #F5F5F5;
+    padding: 50px 30px 0 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.phone_container img {
+    width: 230px;
+    height: 220px;
+    transition: .3s;
+}
+
+.phone_container img:hover{
+    width: 240px;
+    height: 230px;
+}
+
+.phone_container h3{
+    color: black;
+}
+
+.phone_container h3:hover{
+    color: blue;
+}
+
+.main_btn{
+    text-align: center;
+    width: 180px;
+    display: block;
+    padding: 17px;
+    margin: 0 auto;
+    font-size: 18px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.share_title{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+.social_icon img{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.social_icon{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 10px;
+}
